@@ -1,0 +1,106 @@
+{
+  "info": {
+    "name": "CleanPress - Laundry API",
+    "description": "Mini Laundry Order Management System API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost:5000/api" }
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/health"
+      }
+    },
+    {
+      "name": "Dashboard",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/dashboard"
+      }
+    },
+    {
+      "name": "Create Order",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/orders",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"customerName\": \"Rajesh Kumar\",\n  \"phone\": \"9876543210\",\n  \"garments\": [\n    { \"type\": \"shirt\", \"quantity\": 3 },\n    { \"type\": \"saree\", \"quantity\": 1 }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "List All Orders",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/orders"
+      }
+    },
+    {
+      "name": "Filter by Status",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/orders?status=RECEIVED"
+      }
+    },
+    {
+      "name": "Filter by Customer Name",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/orders?name=Rajesh"
+      }
+    },
+    {
+      "name": "Filter by Phone",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/orders?phone=9876543210"
+      }
+    },
+    {
+      "name": "Filter by Garment Type",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/orders?garmentType=saree"
+      }
+    },
+    {
+      "name": "Get Single Order",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/orders/ORD-XXXXXXXX"
+      }
+    },
+    {
+      "name": "Update Order Status",
+      "request": {
+        "method": "PATCH",
+        "url": "{{base_url}}/orders/ORD-XXXXXXXX/status",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"status\": \"PROCESSING\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Delete Order",
+      "request": {
+        "method": "DELETE",
+        "url": "{{base_url}}/orders/ORD-XXXXXXXX"
+      }
+    },
+    {
+      "name": "Get Price List",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/orders/prices"
+      }
+    }
+  ]
+}

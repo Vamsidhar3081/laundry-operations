@@ -1,0 +1,154 @@
+{
+  "orders": [
+    {
+      "orderId": "ORD-E4F694C8",
+      "customerName": "rajesh",
+      "phone": "9876543213",
+      "garments": [
+        {
+          "type": "saree",
+          "quantity": 3,
+          "pricePerItem": 120,
+          "subtotal": 360
+        },
+        {
+          "type": "shirt",
+          "quantity": 3,
+          "pricePerItem": 40,
+          "subtotal": 120
+        }
+      ],
+      "totalAmount": 480,
+      "status": "DELIVERED",
+      "estimatedDelivery": "2026-05-04",
+      "createdAt": "2026-05-01T05:18:32.479Z",
+      "updatedAt": "2026-05-01T05:37:34.428Z"
+    },
+    {
+      "orderId": "ORD-B42EE70E",
+      "customerName": "dasgzxfn",
+      "phone": "9346543644",
+      "garments": [
+        {
+          "type": "bedsheet",
+          "quantity": 1,
+          "pricePerItem": 80,
+          "subtotal": 80
+        },
+        {
+          "type": "curtain",
+          "quantity": 1,
+          "pricePerItem": 90,
+          "subtotal": 90
+        },
+        {
+          "type": "lehenga",
+          "quantity": 3,
+          "pricePerItem": 180,
+          "subtotal": 540
+        }
+      ],
+      "totalAmount": 710,
+      "status": "READY",
+      "estimatedDelivery": "2026-05-04",
+      "createdAt": "2026-05-01T05:36:06.918Z",
+      "updatedAt": "2026-05-01T05:44:15.350Z"
+    },
+    {
+      "orderId": "ORD-5EFD1864",
+      "customerName": "ASFSD",
+      "phone": "9843537563",
+      "garments": [
+        {
+          "type": "shorts",
+          "quantity": 1,
+          "pricePerItem": 35,
+          "subtotal": 35
+        },
+        {
+          "type": "shirt",
+          "quantity": 1,
+          "pricePerItem": 40,
+          "subtotal": 40
+        },
+        {
+          "type": "bedsheet",
+          "quantity": 1,
+          "pricePerItem": 80,
+          "subtotal": 80
+        },
+        {
+          "type": "dress",
+          "quantity": 1,
+          "pricePerItem": 100,
+          "subtotal": 100
+        }
+      ],
+      "totalAmount": 255,
+      "status": "RECEIVED",
+      "estimatedDelivery": "2026-05-03",
+      "createdAt": "2026-05-01T05:37:10.355Z",
+      "updatedAt": "2026-05-01T05:37:10.355Z"
+    },
+    {
+      "orderId": "ORD-DD2F9C1B",
+      "customerName": "ramu",
+      "phone": "8638146251",
+      "garments": [
+        {
+          "type": "lehenga",
+          "quantity": 6,
+          "pricePerItem": 180,
+          "subtotal": 1080
+        },
+        {
+          "type": "jacket",
+          "quantity": 1,
+          "pricePerItem": 150,
+          "subtotal": 150
+        },
+        {
+          "type": "blazer",
+          "quantity": 1,
+          "pricePerItem": 160,
+          "subtotal": 160
+        }
+      ],
+      "totalAmount": 1390,
+      "status": "DELIVERED",
+      "estimatedDelivery": "2026-05-04",
+      "createdAt": "2026-05-01T05:43:06.710Z",
+      "updatedAt": "2026-05-01T05:43:31.590Z"
+    },
+    {
+      "orderId": "ORD-588E5D2D",
+      "customerName": "radium",
+      "phone": "9242265645",
+      "garments": [
+        {
+          "type": "curtain",
+          "quantity": 1,
+          "pricePerItem": 90,
+          "subtotal": 90
+        },
+        {
+          "type": "shirt",
+          "quantity": 1,
+          "pricePerItem": 40,
+          "subtotal": 40
+        },
+        {
+          "type": "kurta",
+          "quantity": 1,
+          "pricePerItem": 60,
+          "subtotal": 60
+        }
+      ],
+      "totalAmount": 190,
+      "status": "RECEIVED",
+      "estimatedDelivery": "2026-05-04",
+      "createdAt": "2026-05-01T05:54:38.009Z",
+      "updatedAt": "2026-05-01T05:54:38.009Z"
+    }
+  ]
+}
