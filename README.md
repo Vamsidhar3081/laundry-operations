@@ -47,6 +47,20 @@ npm start
 
 ---
 
+## 📸 Screenshots
+
+| Dashboard | New Order |
+|---|---|
+| ![Dashboard](frontend/screenshots/Dashboard.png) | ![New Order](frontend/screenshots/New_order.png) |
+
+| All Orders | Order Created |
+|---|---|
+| ![Orders](frontend/screenshots/All_Orders.png) | ![Order Created](frontend/screenshots/Order_Created.png) |
+
+| Update Status |
+|---|
+| ![Status](frontend/screenshots/Update_Status.png) |
+
 ## ✅ Features Implemented
 
 ### Core Features
